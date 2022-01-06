@@ -1,43 +1,201 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
     margin: 0;
 }
 .font1{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Yeseva One', cursive;
+    font-weight: lighter;
 }
 h1{
-    font-size: 50px;
+    font-size: 52px;
 }
-.col1{
-    color: orange;
+.spnclr1{
+    color: #f7922d;
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
-
 }
-.half-width{
+.cntnr-bottom{
+    margin-bottom: 80px;
+}
+.first-sectn-half-width{
     width: 40%;
-    padding-right: 4%;
+    padding-right: 10%;
     margin-left: 5%;
 }
-.half-width img{
-    width: 85%;
+.first-sectn-half-width img{
+    width: 80%;
 }
 .stay-focus{
    padding: 70px;
 }
-.borderproperty{
+#first-sectn-borderproperty{
     border-left: 5px solid;
     border-color: salmon;
     border-radius: 3px;
     padding-left: 10px;
 }
-.btn1{
+.button1{
     text-decoration: none;
     background-image: linear-gradient(salmon, tomato);
-    padding: 10px 40px;
+    padding: 10px 30px;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
     border-radius: 5px;
 }
+#first-sectn-par1{
+    margin-bottom: 28px;
+}
+#first-sectn-par2{
+    margin-top: 40px;
+}
+.second-sectn{
+    padding: 0 10% 0 10%;
+}
+.sectn2-h1{
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+.sectn2-tri-width{
+    width: 30%;
+    margin-right: 30px;
+    text-align: justify;
+}  
+.sectn2-tri-width img{
+    width: 40%;
+}
+.sectn2-tri-item1{
+    background-color: #edf5f6;
+    border-radius: 30px;
+    padding: 30px;
+}
+.sectn2-tri-item2{
+    background-color: #ffeeeeee;
+    border-radius: 30px;
+    padding: 20px;
+}
+.sectn2-tri-item3{
+    background-color: #fff4d6;
+    border-radius: 30px;
+    padding: 20px;
+}
+#sectn3-banner{
+    background-image: url(images/pictures/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 7%;
+}
+.sectn3-h2{
+    font-size: 35px;
+}
+.width-sectn3-one{
+    width:30%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.width-sectn3-two{
+    width: 40%;
+    padding-top: 20px;
+}
+.width-sectn3-one img{
+    width: 98%;
+}
+.par-thrd-sctn{
+    margin-bottom: 30px;
+}
+.sectn3-button{
+    text-decoration: none;
+    background-image: linear-gradient(#ff5959,#ff5959 );
+    padding: 10px 20px;
+    color: white;
+    font-weight: 200;
+    border-radius: 5px;
+}
+#sectn4-banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px 200px;
+}
+.sectn4-h2{
+    font-size: 35px;
+}
+.width-sectn4-one{
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.width-sectn4-two{
+    width: 30%;
+    padding-left: 70px;
+    padding-bottom: 70px;
+
+}
+.width-sectn4-two img{
+    width: 100%;
+
+}
+.par-fourth-sctn{
+    margin-bottom: 30px;
+}
+#sectn5-h1{
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+.spnclr2{
+    color: blue;
+}
+.width-sectn5-one{
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.width-sectn5-one img{
+    width: 100%;
+}
+.width-sectn5-two{
+    width: 40%;
+    padding-top: 20px;
+}
+.par-fifth-sectn{
+    margin-bottom: 30px;
+}
+.button-sectn5{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(74, 74, 221), rgb(57, 185, 236));
+    padding: 10px 20px;
+    color: white;
+    font-weight: 200;
+    border-radius: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #0b0d17;
+}
+.sectn6{
+    text-align: center;
+    padding-top: 10px;
+}
+.sectn6-h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+}
+.spnclr3{
+    color: white;
+    text-align: center;
+}
+.spnclr4{
+    color: salmon;
+    text-align: center;
+}
+.sectn6-p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
