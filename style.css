@@ -137,6 +137,14 @@ h1{
     width: 100%;
 
 }
+.sectn4-button{
+    text-decoration: none;
+    background-image: linear-gradient(#f15353,#f87070 );
+    padding: 10px 20px;
+    color: white;
+    font-weight: 200;
+    border-radius: 5px;
+}
 .par-fourth-sctn{
     margin-bottom: 30px;
 }
